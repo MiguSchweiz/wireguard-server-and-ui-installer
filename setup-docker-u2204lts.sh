@@ -38,8 +38,8 @@ apt install wireguard-tools
 cd
 git clone https://github.com/MiguSchweiz/wireguard-ui-plus.git
 cd wireguard-ui-plus
-git config --global user.email "miguschweiz@bluewin.ch"
-git config --global user.name "MiguSchweiz"
+git config --global user.email "user@domain"
+git config --global user.name "Name"
 
 docker compose build --build-arg=GIT_COMMIT=$(git rev-parse --short HEAD)
 docker-compose up &
